@@ -1,0 +1,18 @@
+footer{
+    background-color: #ff45b8;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer img{
+    width: 30px;
+    height: 30px;
+}
+footer .btn{
+    background-color: #ffffff;
+    color: #ff45b8;
+}
+footer input, footer textarea, footer input::placeholder, footer textarea::placeholder,footer input:focus, footer textarea:focus{
+    color: #ff45b8 !important;
+}

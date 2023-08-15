@@ -1,0 +1,23 @@
+.categories .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category-box img{
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+}
+.category-box h3{
+    font-size: 19px;
+}
+.categories h2{
+    color: #FF66C4;
+}
+
+@media (max-width:820px){
+    .category-box img {
+        width: 115px;
+        height: 115px;
+    }
+}

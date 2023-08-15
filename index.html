@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="testimonials.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+
+    <!-- navBar start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img//logo-bg-wh1.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./img/menu.svg" alt="Open icon" class="navbar-toggler-icon-custom">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto mx-auto my-2 my-lg-0 navbar-nav-scroll"
+                    style="--bs-scroll-height: 300px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Catalogue
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Hair care</a></li>
+                            <li><a class="dropdown-item" href="#">Stress care</a></li>
+                            <li><a class="dropdown-item" href="#">Health care</a></li>
+                            <li><a class="dropdown-item" href="#">Beard care</a></li>
+                            <li><a class="dropdown-item" href="#">Beauty care</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#counter">Legacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#footer">Contact Us</a>
+                    </li>
+                </ul>
+                <img class="cart" src="./img/cart.svg" alt="">
+            </div>
+        </div>
+    </nav>
+    <!-- navBar end -->
+    <!-- header-swiper start -->
+    <div id="carouselExample" class="carousel slide mt-2">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/Header1.jpg" class="d-block w-90" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Header2.jpg" class="d-block w-90" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Header5.jpg" class="d-block w-90" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Header4.jpg" class="d-block w-90" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Header3.jpg" class="d-block w-90" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- header-swiper end -->
+    <!-- whyChoose us start -->
+    <div class="container mt-4 WCU">
+        <div class="row">
+            <div class="col">
+                <div class=" p-4">
+                    <h2 class="mb-3 center text-center">Why Choose Us?</h2>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                        facilisis ex
+                        vitae tortor
+                        venenatis auctor. Fusce in ante et elit ullamcorper ullamcorper nec vel velit. Ut quis dolor a
+                        quam iaculis tristique. Integer ut iaculis lorem. Curabitur id ultrices eros.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- whychoose us end -->
+    <!-- Banner start -->
+    <div class="container mt-4 banner">
+        <div class="row">
+            <div class="col">
+                <div class=" p-4">
+                    <img src="./img/Banner1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- categories start -->
+    <div class="container mt-5 text-center categories">
+        <div class="row">
+            <h2 class="mt-2 mb-4">Categories</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-4 mb-4">
+                <div class="category-box">
+                    <img src="./img/Cat1.jpg" alt="Category 1" class="img-fluid">
+                    <h3 class="mt-3">Beard Care</h3>
+                </div>
+            </div>
+            <div class="col-md-2 col-4 mb-4">
+                <div class="category-box">
+                    <img src="./img/cat2.jpg" alt="Category 2" class="img-fluid">
+                    <h3 class="mt-3">Stress Care</h3>
+                </div>
+            </div>
+            <div class="col-md-2 col-4 mb-4">
+                <div class="category-box">
+                    <img src="./img/cat3.jpg" alt="Category 3" class="img-fluid">
+                    <h3 class="mt-3">Skin Care</h3>
+                </div>
+            </div>
+            <div class="col-md-2 col-4 mb-4">
+                <div class="category-box">
+                    <img src="./img/cat4.jpg" alt="Category 4" class="img-fluid">
+                    <h3 class="mt-3">Hair Care</h3>
+                </div>
+            </div>
+            <div class="col-md-2 col-4 mb-4">
+                <div class="category-box">
+                    <img src="./img/cat5.jpg" alt="Category 5" class="img-fluid">
+                    <h3 class="mt-3">Health Care</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- categories end -->
+    <div class="container mt-2 marqueeDiv">
+        <div class="marquee w-100">
+            <p class="text-success">Free Delivery on All Orders! | Free Shipping Worldwide! | Limited Time Offer!</p>
+        </div>
+    </div>
+    <!-- testimonial start -->
+
+    <div class="container mt-5 testimonials">
+        <div class="row text-center mt-5 mb-5">
+            <h2>Let Our Customer Be Our Voice</h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active p-4">
+                            <div class="testimonial text-center">
+                                <div class="testimonial-author">
+                                    <img src="./img/human1.jpg" alt="User 1" class="img-fluid rounded-circle mb-2">
+                                    <h4>John Doe</h4>
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis ex
+                                        vitae tortor venenatis auctor."</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item p-4">
+                            <div class="testimonial text-center">
+                                <div class="testimonial-author">
+                                    <img src="./img/human2.jpg" alt="User 2" class="img-fluid rounded-circle mb-2">
+                                    <h4>Jane Smith</h4>
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Vivamus euismod, odio nec cursus pulvinar, sem velit dapibus eros, non malesuada
+                                        libero ante sit amet elit."</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item p-4">
+                            <div class="testimonial text-center">
+                                <div class="testimonial-author">
+                                    <img src="./img/human3.jpg" alt="User 3" class="img-fluid rounded-circle mb-2">
+                                    <h4>Michael Johnson</h4>
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Fusce in ante et elit ullamcorper ullamcorper nec vel velit. Ut quis dolor a
+                                        quam iaculis tristique."</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial end -->
+
+    <!-- our Best start -->
+
+    <div class="container mt-5 ourBest">
+        <div class="row text-center my-5">
+            <h2>Our Best Sellers</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="product text-center">
+                    <img src="./img/product1.png" alt="Product 1" class="img-fluid">
+                    <h4 class="mt-3">Onion Shampoo</h4>
+                    <p>Fusce in ante et elit ullamcorper ullamcorper nec vel velit.</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="product text-center">
+                    <img src="./img/product2.webp" alt="Product 2" class="img-fluid">
+                    <h4 class="mt-3">Beard Hair oil</h4>
+                    <p>Fusce in ante et elit ullamcorper ullamcorper nec vel velit.</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="product text-center">
+                    <img src="./img/product3.webp" alt="Product 3" class="img-fluid">
+                    <h4 class="mt-3">Stress Buster Balls</h4>
+                    <p>Fusce in ante et elit ullamcorper ullamcorper nec vel velit.</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our best end -->
+    <div class="container mt-2 marqueeDiv">
+        <div class="marquee w-100">
+            <p class="text-success">Free Delivery on All Orders! | Free Shipping Worldwide! | Limited Time Offer!</p>
+        </div>
+    </div>
+    <!-- review start -->
+
+    <div class="container mt-5 testimonials" id="reviews">
+        <div class="row text-center mt-5 mb-5">
+            <h2>Reviews</h2>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="testimonial1Carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active p-4">
+                            <div class="testimonial text-center">
+                                <div class="testimonial-author">
+                                    <img src="./img/fivestar.png" alt="User 1" class="img-fluid mb-2">
+                                    <h4>John Doe</h4>
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis ex
+                                        vitae tortor venenatis auctor."</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item p-4">
+                            <div class="testimonial text-center">
+                                <div class="testimonial-author">
+                                    <img src="./img/fivestar.png" alt="User 2" class="img-fluid  mb-2">
+                                    <h4>Jane Smith</h4>
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Vivamus euismod, odio nec cursus pulvinar, sem velit dapibus eros, non malesuada
+                                        libero ante sit amet elit."</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item p-4">
+                            <div class="testimonial text-center">
+                                <div class="testimonial-author">
+                                    <img src="./img/fivestar.png" alt="User 3" class="img-fluid mb-2">
+                                    <h4>Michael Johnson</h4>
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Fusce in ante et elit ullamcorper ullamcorper nec vel velit. Ut quis dolor a
+                                        quam iaculis tristique."</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonial1Carousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonial1Carousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- review end -->
+    <!-- our combo start -->
+    <div class="container mt-5 ourBest">
+        <div class="row text-center my-5">
+            <h2>Combo Offers</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="product text-center">
+                    <img src="./img/product4.webp" alt="Product 1" class="img-fluid">
+                    <h4 class="mt-3">Beard growth combo </h4>
+                    <p>Fusce in ante et elit ullamcorper ullamcorper nec vel velit.</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="product text-center">
+                    <img src="./img/product5.webp" alt="Product 2" class="img-fluid">
+                    <h4 class="mt-3">Facewash Combo</h4>
+                    <p>Fusce in ante et elit ullamcorper ullamcorper nec vel velit.</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="product text-center">
+                    <img src="./img/product6.webp" alt="Product 3" class="img-fluid">
+                    <h4 class="mt-3">Vitamin C facewash combo</h4>
+                    <p>Fusce in ante et elit ullamcorper ullamcorper nec vel velit.</p>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our combo end -->
+    <!-- counter start -->
+    <div class="container mt-5 counterDiv" id="counter">
+        <div class="row text-center mt-5 mb-5">
+            <h2>Shop By The Numbers</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="counter text-center">
+                    <span>
+                        <h3 class="counter-number" data-target="3000">0 </h3><span>+</span>
+                    </span>
+                    <p>Customers</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="counter text-center">
+                    <span>
+                        <h3 class="counter-number" data-target="45000">0 </h3><span>+</span>
+                    </span>
+                    <p>Products Sold</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="counter text-center">
+                    <span>
+                        <h3 class="counter-number" data-target="200">0 </h3><span>+</span>
+                    </span>
+                    <p>Vendors</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- counter end -->
+    <div class="container mt-2 marqueeDiv">
+        <div class="marquee w-100">
+            <p class="text-success">Free Delivery on All Orders! | Free Shipping Worldwide! | Limited Time Offer!</p>
+        </div>
+    </div>
+    <!-- blog start -->
+
+    <div class="container mt-5 blog">
+        <h2 class="mb-4 text-center">Latest Blogs</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/blog1.jpg" class="card-img-top" alt="Blog 1">
+                    <div class="card-body">
+                        <h5 class="card-title">REMEDIES & TREATMENT</h5>
+                        <p class="card-text">HOW TO REMOVE WHITEHEADS WITH HOME REMEDIES & TREATMENT
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/blog1.jpg" class="card-img-top" alt="Blog 2">
+                    <div class="card-body">
+                        <h5 class="card-title">REMEDIES & TREATMENT</h5>
+                        <p class="card-text">HOW TO REMOVE WHITEHEADS WITH HOME REMEDIES & TREATMENT
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./img/blog1.jpg" class="card-img-top" alt="Blog 3">
+                    <div class="card-body">
+                        <h5 class="card-title">REMEDIES & TREATMENT</h5>
+                        <p class="card-text">HOW TO REMOVE WHITEHEADS WITH HOME REMEDIES & TREATMENT
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog end -->
+
+
+    <footer class="text-white py-5" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4>Contact Us</h4>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Locate Us</h4>
+                    <p>123 Street, City</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <p>Email: info@example.com</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="mt-4">Follow Us</h4>
+                    <ul class="list-unstyled d-flex">
+                        <li class="me-4"><a href="#"><img src="./img/blogger1.svg" alt=""></a></li>
+                        <li class="me-4"><a href="#"><img src="./img/facebook1.svg" alt=""></a></li>
+                        <li class="me-4"><a href="#"><img src="./img/twitter1.svg" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+
+</html>
